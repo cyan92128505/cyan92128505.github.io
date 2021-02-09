@@ -5,6 +5,13 @@
   "repository": "https://github.com/cyan92128505/cyan92128505.github.io.git",
   "author": "cyan92128505 <cyan92128505@gmail.com>",
   "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node ./CI/build.js"
+  },
+  "dependencies": {
+    "fs-extra": "^9.1.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
@@ -15,5 +22,11 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "prettier": {
+    "printWidth": 120,
+    "parser": "typescript",
+    "trailingComma": "es5",
+    "singleQuote": true
   }
 }
