@@ -13,6 +13,7 @@
   - Kubernetes / Container
   - Microservices 系統監控
 - App (Swift / Kotlin) 重點強化
+- Flutter (APP 內動態更新)
 - 實踐 TDD (Flutter / Node.js / Front-End / Golang)
 - 機器學習實踐 (Python/Golang/Node.js)
 - 資料庫大量操作設計 (PostgreSQL)
