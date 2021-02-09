@@ -1,0 +1,19 @@
+{
+  "name": "cyan92128505.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cyan92128505/cyan92128505.github.io.git",
+  "author": "cyan92128505 <cyan92128505@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@commitlint/core": "^11.0.0",
+    "husky": "^5.0.9"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  }
+}
